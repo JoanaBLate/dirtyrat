@@ -26,6 +26,7 @@ Place bash script below in your environment path and name it "rat".
 
 
 #!/bin/bash
+
 deno run --allow-read --allow-env ~/dirtyrat/main.js "$@"
 
 
