@@ -41,6 +41,8 @@ There are 3 modes to use dirtyrat.
         
 <script type="module" src="/example.js"></script>
 
+
+
         
 Dirtyrat issues errors and warnings. In case of error it exits when finds the first one or else it could point tens of errors that really don't exist, just because the first error breaks the structure of the following lines of code.
         
