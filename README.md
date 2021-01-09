@@ -24,11 +24,11 @@ Dirtyrat expects to be ran with Deno in a Linux system. Copy the source code int
 
 Place bash script below in your environment path and name it "rat".
 
-
+```
 #!/bin/bash
 
 deno run --allow-read --allow-env ~/dirtyrat/main.js "$@"
-
+```
 
 There are 3 modes to use dirtyrat.
             
@@ -38,11 +38,9 @@ There are 3 modes to use dirtyrat.
 
 3) Enter "rat example.html". Dirtyrat will lint all JS files that are linked by example.html as long as the links follow exactly the syntax shown below (whitespaces are meaningful). Any linked script that is not supposed to be linted like (Google Analytics, for example) must have its link written in a slightly different syntax, like inserting an excedent whitespace.
 
-        
+```        
 <script type="module" src="/example.js"></script>
-
-
-
+```
         
 Dirtyrat issues errors and warnings. In case of error it exits when finds the first one or else it could point tens of errors that really don't exist, just because the first error breaks the structure of the following lines of code.
         
