@@ -2,8 +2,8 @@
 A linter for a small subset of JavaScript
 
 
-That small subset of JavaScript
--------------------------------
+The small subset of JavaScript
+------------------------------
 
 Dirtyrat does not recognize arrow functions, async/await/then, classes or methods (prototype), destructuring syntax or import syntax with wildcard or default. It lacks support for other syntaxes recently added to JavaScript.
 
