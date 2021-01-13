@@ -22,7 +22,7 @@ Running dirtyrat
 
 Dirtyrat expects to be ran with Deno in a Linux system. Copy the source code into a folder called dirtyrat in your home folder. 
 
-Place bash script below in your environment path and name it "rat".
+Place the bash script below in your environment path and name it "rat".
 
 ```
 #!/bin/bash
@@ -44,5 +44,5 @@ There are 3 modes to use dirtyrat.
         
 Dirtyrat issues errors and warnings. In case of error it exits when finds the first one or else it could point tens of errors that really don't exist, just because the first error breaks the structure of the following lines of code.
         
-WARNING: dirtyrat erases the content of your terminal (the history of shell remains intact). If you don't want this just comment the first line of the function showOpenMessage in the file main.js.
+WARNING: dirtyrat erases the content of your terminal (the history of shell remains intact). If you don't want this, just comment the first line of the function showOpenMessage in the file main.js.
 
