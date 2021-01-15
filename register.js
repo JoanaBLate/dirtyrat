@@ -109,6 +109,8 @@ export function registerLocalVariable(token, isConstant) {
     register(fullname, token)
 }
 
+//////////////////////////////////////////////////////////////////////////////
+
 export function endGlobalFunction() { // good for main and init
     currentFunction = ""
 }
